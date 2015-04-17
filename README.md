@@ -5,4 +5,4 @@ Supporting code for the article [Of Mice And Foursquare](https://medium.com/@jea
 
 * Python script to match the NYC data with the Foursquare data
 
-* R scripts to query the database and generate the graphs
+* R script to query the database and generate the graphs
