@@ -35,9 +35,9 @@ maxRequest = 5000
 minimumMatchScore = 30
 
 # INIT foursquare 
-clientID = 'R5G3CEQJPVFPZSAUIOUFRWCYBWJ4TY2DITOAFTA1ZRZC3TYD'
+clientID = 'YOUR_CLIENT_ID'
 #clientID ='bla'
-clientSecret = 'ECXL3TGU43DWPE5V0DPSWBDCSQET11MLFT14GT4OZ34JA5KC'
+clientSecret = 'YOUR_CLIENT_SECRET'
 client = foursquare.Foursquare(client_id=clientID, client_secret=clientSecret, redirect_uri='')
 
 

@@ -11,7 +11,7 @@ from datetime import datetime, date, timedelta
 
 
 #open connexion and prepare request
-cnx = mysql.connector.connect(user='root', password='root',host='localhost', port='3306', unix_socket='/Applications/MAMP/tmp/mysql/mysql.sock',database='resto')
+cnx = mysql.connector.connect(user='USER_NAME', password='PASSWORD',host='localhost', port='3306', unix_socket='SOCKET',database='DATABASE')
 # Truncate tables for a clean start
 # truncate = cnx.cursor(buffered=True)
 # truncate_camis = ("TRUNCATE TABLE `venues`")
